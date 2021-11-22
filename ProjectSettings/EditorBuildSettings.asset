@@ -35,6 +35,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Q10.unity
     guid: bd740afc24475c44d9bf5ac855798507
+  - enabled: 1
+    path: Assets/Scenes/End.unity
+    guid: bb1369bf1addf774982be4d5a8c9f82d
   - enabled: 0
     path: Assets/BNG Framework/Scenes/XR Demo.unity
     guid: a1360534006d3f845bc79b46b93cfec5

@@ -22,7 +22,7 @@ public class BulletMovement : MonoBehaviour
     private void OnEnable()
     {
         screenFader = FindObjectOfType<ScreenFader>();
-        //question = FindObjectOfType<Question>();
+        question = FindObjectOfType<Question>();
         health = FindObjectOfType<PlayerHealth>();
     }
 
@@ -43,7 +43,7 @@ public class BulletMovement : MonoBehaviour
             //if (!bp.enemy.dead)
                 Instantiate(SuperHotScript.instance.hitParticlePrefab, transform.position, transform.rotation);
 
-            //question.receivedAnswers.Add(bp.enemy.enemyValue);
+            question.receivedAnswers.Add(bp.enemy.enemyValue);
 
             bp.HidePartAndReplace();
             bp.enemy.Ragdoll();

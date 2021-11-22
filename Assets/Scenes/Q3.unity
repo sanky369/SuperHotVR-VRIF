@@ -1201,6 +1201,11 @@ PrefabInstance:
       objectReference: {fileID: 367060513}
     - target: {fileID: 8701742546738154340, guid: 93bc1399680724648906c17cdc369c93,
         type: 3}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 579818950}
+    - target: {fileID: 8701742546738154340, guid: 93bc1399680724648906c17cdc369c93,
+        type: 3}
       propertyPath: enemyValue
       value: E
       objectReference: {fileID: 0}
@@ -1641,6 +1646,11 @@ PrefabInstance:
       objectReference: {fileID: 367060513}
     - target: {fileID: 8701742546738154340, guid: 93bc1399680724648906c17cdc369c93,
         type: 3}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 579818950}
+    - target: {fileID: 8701742546738154340, guid: 93bc1399680724648906c17cdc369c93,
+        type: 3}
       propertyPath: enemyValue
       value: C
       objectReference: {fileID: 0}
@@ -2060,6 +2070,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 367060513}
+    - target: {fileID: 8701742546738154340, guid: 93bc1399680724648906c17cdc369c93,
+        type: 3}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 579818950}
     - target: {fileID: 8701742546738154340, guid: 93bc1399680724648906c17cdc369c93,
         type: 3}
       propertyPath: enemyValue
@@ -2717,6 +2732,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 367060513}
+    - target: {fileID: 8701742546738154340, guid: 93bc1399680724648906c17cdc369c93,
+        type: 3}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 579818950}
     - target: {fileID: 8701742546738154340, guid: 93bc1399680724648906c17cdc369c93,
         type: 3}
       propertyPath: enemyValue
@@ -3597,6 +3617,11 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 367060513}
+    - target: {fileID: 8701742546738154340, guid: 93bc1399680724648906c17cdc369c93,
+        type: 3}
+      propertyPath: question
+      value: 
+      objectReference: {fileID: 579818950}
     - target: {fileID: 8701742546738154340, guid: 93bc1399680724648906c17cdc369c93,
         type: 3}
       propertyPath: enemyValue

@@ -10,14 +10,14 @@ public class EnemyScript : MonoBehaviour
     public bool dead;
     public Transform weaponHolder;
     public string enemyValue;
-    private Question question;
+    //public Question question;
+    private bool responseCaptured = false;
 
     void Start()
     {
         Debug.Log(gameObject.GetComponentInChildren<TextMeshProUGUI>().text);
 
         anim = GetComponent<Animator>();
-        question = FindObjectOfType<Question>();
         StartCoroutine(RandomAnimation());
 
         if (weaponHolder.GetComponentInChildren<WeaponScript>() != null)
@@ -30,6 +30,11 @@ public class EnemyScript : MonoBehaviour
         if (!dead)
             transform.LookAt(new Vector3(Camera.main.transform.position.x, 0, Camera.main.transform.position.z));
             //transform.LookAt(Camera.main.transform.position - transform.forward);
+
+        //if(dead && !responseCaptured)
+        //{
+        //    question.receivedAnswers.Add(enemyValue);
+        //}
     }
 
     public void Ragdoll()

@@ -19,4 +19,9 @@ public class CaptureResponse : MonoBehaviour
             question.receivedAnswers.Add(response);
         }
     }
+
+    public void QuitApp()
+    {
+        Application.Quit();
+    }
 }
